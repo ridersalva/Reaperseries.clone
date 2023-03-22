@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from "../pages/HomePage";
 //import Contact from "../pages/Contact"
 
+
 function AppRoutes() {
     return (
         <Routes>

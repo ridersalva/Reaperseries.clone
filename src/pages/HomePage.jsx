@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button,Carousel } from 'react-bootstrap';
-import "../App.css";
-import "./Pages.css";
+import { Button, Carousel } from 'react-bootstrap';
+import './Pages.css';
 
 
 

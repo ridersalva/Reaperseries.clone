@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Container, Form, Button, FormControl, Image, Row, Col, Nav } from 'react-bootstrap'
-import "./Bar.css"
+//import "./Bar.css"
 
 function Bar() {
     return (

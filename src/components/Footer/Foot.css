@@ -1,0 +1,22 @@
+.foot {
+    text-decoration: none;
+    height: fit-content;
+    width: 100%;
+    background-color: red;
+    font-size: 20px;
+
+}
+
+.footElements {
+    justify-content: space-around;
+    background-color: aquamarine;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center ;
+    align-content: center;
+}
+
+.footEleMed {
+    background-color: bisque;
+    justify-content: center;
+}
