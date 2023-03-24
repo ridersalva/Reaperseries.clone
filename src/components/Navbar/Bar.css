@@ -13,3 +13,12 @@ a.nav-link{
   color: white;
   text-decoration: double;
 }
+a{
+  color: white;
+  text-decoration: none;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+font-size: 20px;
+margin: 20px;
+align-items: center;
+}

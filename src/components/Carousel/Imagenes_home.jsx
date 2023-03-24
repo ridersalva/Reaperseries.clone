@@ -1,5 +1,6 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap';
+import './Imagenes_home.css';
 
 function Imagenes_home() {
   return (
@@ -34,12 +35,7 @@ function Imagenes_home() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+ 
       </Carousel.Item>
     </Carousel> 
   )

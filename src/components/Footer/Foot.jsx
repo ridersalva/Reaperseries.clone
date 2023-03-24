@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 function Foot() {
     return (
-        <div className='foot'>
-           <Stack direction='horizontal' gap={2}>
+        <div className='foot' fixed="botton">
+            <Stack direction='horizontal' gap={2}>
                 <Row className='footElements'>
                     <Col xs={3}>
                         <p>logo instagram</p>
