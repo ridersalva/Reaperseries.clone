@@ -1,12 +1,18 @@
-import React from 'react'
-import { Navbar, Container, NavLink, NavDropdown, Nav } from 'react-bootstrap'
-import './Bar.css'
-import{Link} from 'react-router-dom';
+import React from 'react';
+import { Navbar, Container, NavLink, NavDropdown, Nav, Image } from 'react-bootstrap';
+import './Bar.css';
+import { Link } from 'react-router-dom';
+import logo_white from "./logo menu blanco.png";
+import Square from "./Squeare";
 
 function Bar() {
     return (
-        <Navbar className='Bar' fixed="top">
+<>
+            <Square />
+        <Navbar className='Bar' fixed='top'>
+           
             <Container>
+                <Image src={logo_white} alt='company_logo' />
                 <Navbar.Brand href="#home" onclick="color">logo</Navbar.Brand>
                 <Nav className='buttonLink'>
                     <Link to="/" href='#home'>Inicio</Link>
@@ -22,6 +28,7 @@ function Bar() {
             </Container>
 
         </Navbar>
+        </>
     )
 }
 export default Bar

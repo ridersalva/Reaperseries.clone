@@ -1,15 +1,15 @@
 import React from 'react'
-import {Carousel} from 'react-bootstrap';
+import { Carousel, Image } from 'react-bootstrap';
 import './Imagenes_home.css';
 
 function Imagenes_home() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img
+        <Image
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
+          src='./_DSC0114.jpg'
+          alt="logoclassic"
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -35,9 +35,9 @@ function Imagenes_home() {
           alt="Third slide"
         />
 
- 
+
       </Carousel.Item>
-    </Carousel> 
+    </Carousel>
   )
 }
 
