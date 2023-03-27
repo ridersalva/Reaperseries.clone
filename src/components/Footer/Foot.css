@@ -1,19 +1,16 @@
 .foot {
-    text-decoration: none;
-    height: fit-content;
+    background-color: rgb(15, 13, 13);
+    display: flex;
+    justify-content: center;
     width: 100%;
-    background-color: red;
-    font-size: 20px;
-
+    height: 100px;
 }
 
 .footElements {
-    justify-content: space-around;
-    background-color: aquamarine;
-    margin-left: 5%;
-    margin-right: 5%;
-    align-items: center ;
-    align-content: center;
+    background-color: rgb(15, 13, 13);
+    display: flex;
+    width: 100%;
+    height: 100px;
 }
 
 .footEleMed {

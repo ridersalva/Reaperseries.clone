@@ -7,27 +7,27 @@ import Square from "./Squeare";
 
 function Bar() {
     return (
-<>
+        <>
             <Square />
-        <Navbar className='Bar' fixed='top'>
-           
-            <Container>
-                <Image src={logo_white} alt='company_logo' />
-                <Navbar.Brand href="#home" onclick="color">logo</Navbar.Brand>
-                <Nav className='buttonLink'>
-                    <Link to="/" href='#home'>Inicio</Link>
-                    <NavDropdown title="Productos" id="basic-nav-dropdown" href='#products'>
-                        <NavDropdown.Item href="#Camisetas">Camisetas</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">
-                            Sudaderas
-                        </NavDropdown.Item>
-                    </NavDropdown>
-                    <Nav.Link href='#about'>Filosofia</Nav.Link>
-                    <Link to="/contact" href='#home'>Contact</Link>
-                </Nav>
-            </Container>
+            <Navbar className='Bar' fixed='top'>
 
-        </Navbar>
+                <Container>
+                    <Image src={logo_white} alt='company_logo' />
+                    <Navbar.Brand href="#home" onclick="color">logo</Navbar.Brand>
+                    <Nav className='buttonLink'>
+                        <Link to="/" href='#home'>Inicio</Link>
+                        <NavDropdown title="Productos" id="basic-nav-dropdown" href='#products'>
+                            <NavDropdown.Item href="#Camisetas">Camisetas</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">
+                                Sudaderas
+                            </NavDropdown.Item>
+                        </NavDropdown>
+                        <Nav.Link href='#about'>Filosofia</Nav.Link>
+                        <Link to="/contact" href='#home'>Contact</Link>
+                    </Nav>
+                </Container>
+
+            </Navbar>
         </>
     )
 }

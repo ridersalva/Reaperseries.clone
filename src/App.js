@@ -6,9 +6,9 @@ import './App.css';
 function App() {
   return (
     <>
-     <Bar/>
-     <AppRoutes/>
-     <Foot/>
+      <Bar/>
+      <AppRoutes/>
+      <Foot/>
     </>
   );
 }

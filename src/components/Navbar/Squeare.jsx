@@ -3,7 +3,9 @@ import './Square.css';
 
 function Squeare() {
   return (
-    <div className='red'>Squeare</div>
+    <div className='red' fixed='top'>
+      Squeare
+    </div>
   )
 }
 

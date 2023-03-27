@@ -1,18 +1,18 @@
 import React from 'react';
 import './Foot.css';
-import { Row, Col, Container, Stack } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Square from '../Navbar/Squeare'
 
 function Foot() {
     return (
-        <div className='foot' fixed="botton">
-            <Stack direction='horizontal' gap={2}>
+        <>
+            <Container className='foot' fixed="botton">
                 <Row className='footElements'>
                     <Col xs={3}>
                         <p>logo instagram</p>
                         <p>logo facebook</p>
                     </Col>
-
                     <Col flex xs={6} className='footEleMed'>
                         <p>texto central</p>
                     </Col>
@@ -20,8 +20,9 @@ function Foot() {
                         <p>vacia</p>
                     </Col>
                 </Row>
-            </Stack>
-        </div>
+            </Container>
+            <Square fixed='bottn' />
+        </>
     )
 }
 

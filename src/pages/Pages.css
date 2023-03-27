@@ -4,7 +4,15 @@
     margin-left: 40px;
     justify-content: center;
     text-align: center;
+    width: 100%;
 }
+
+.carou {
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
 
 h1 {
     text-align: center;
@@ -25,11 +33,12 @@ p {
     background-color: transparent;
     color: black;
 }
-.buttonGroup{
+
+.buttonGroup {
     display: flex;
-   align-content: center;
-   align-items: center;
-   margin-left: 40%;
-   margin-top: 5%;
-   margin-bottom: 5%;
+    align-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
