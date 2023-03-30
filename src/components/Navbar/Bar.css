@@ -6,20 +6,23 @@
   height: 100px;
   margin-top: 30px;
 }
-a.nav-link{
+
+a.nav-link {
   margin: 20px;
   font-size: 20px;
 }
-.navbar-light .navbar-nav .nav-link{ 
+
+.navbar-light .navbar-nav .nav-link {
   color: white;
   text-decoration: double;
 }
-a{
+
+a {
   color: white;
   text-decoration: none;
-padding-left: 0.5rem;
-padding-right: 0.5rem;
-font-size: 20px;
-margin: 20px;
-align-items: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 20px;
+  margin: 20px;
+  align-items: center;
 }

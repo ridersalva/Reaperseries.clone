@@ -8,7 +8,7 @@ import Square from "./Squeare";
 function Bar() {
     return (
         <>
-            <Square />
+            <Square/>
             <Navbar className='Bar' fixed='top'>
 
                 <Container>

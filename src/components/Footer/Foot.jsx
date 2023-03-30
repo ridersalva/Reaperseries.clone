@@ -21,7 +21,7 @@ function Foot() {
                     </Col>
                 </Row>
             </Container>
-            <Square fixed='bottn' />
+            <Square/>
         </>
     )
 }

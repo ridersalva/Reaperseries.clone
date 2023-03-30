@@ -1,8 +1,7 @@
 .foot {
-    background-color: rgb(15, 13, 13);
     display: flex;
+    background-color: rgb(15, 13, 13);
     justify-content: center;
-    width: 100%;
     height: 100px;
 }
 

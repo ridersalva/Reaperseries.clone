@@ -8,7 +8,7 @@ function Imagenes_home() {
       <Carousel.Item>
         <Image
           className="d-block w-100"
-          src='./_DSC0114.jpg'
+          src='./imagenes/_DSC0114.jpg'
           alt="logoclassic"
         />
         <Carousel.Caption>
@@ -19,11 +19,9 @@ function Imagenes_home() {
       <Carousel.Item>
         <Image
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          src='./imagenes/1510646_734490823325701_335514493406597937_n.jpg'
           alt="Third slide"
         />
-
-
       </Carousel.Item>
     </Carousel>
   )
