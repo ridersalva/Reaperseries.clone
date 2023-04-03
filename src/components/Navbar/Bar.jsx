@@ -11,8 +11,8 @@ function Bar() {
             <Square/>
             <Navbar className='Bar' fixed='top'>
 
-                <Container>
-                    <Image src={logo_white} alt='company_logo' />
+                <Container className='inside'>
+                    <Image className='mainLoto' src={logo_white} alt='company_logo' />
                     <Navbar.Brand href="#home" onclick="color">logo</Navbar.Brand>
                     <Nav className='buttonLink'>
                         <Link to="/" href='#home'>Inicio</Link>

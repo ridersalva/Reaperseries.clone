@@ -8,7 +8,7 @@ function Imagenes_home() {
       <Carousel.Item>
         <Image
           className="d-block w-100"
-          src='./imagenes/_DSC0114.jpg'
+          src='./_DSC0114.jpg'
           alt="logoclassic"
         />
         <Carousel.Caption>

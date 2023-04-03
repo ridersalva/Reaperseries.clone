@@ -1,6 +1,6 @@
 .home {
     display: flex;
-    background-color: aqua;
+    background-color: white;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
@@ -28,18 +28,31 @@
 }
 
 h1 {
+    font-size: 60px;
+    margin-top: 5%;
     text-align: center;
 }
 
 h4 {
     text-align: center;
     margin-bottom: 3%;
+    font-size: 30px;
+}
+hr{
+    height: 5px;
+    border-color: black;
+    border: 10px;
 }
 
 p {
     text-align: center;
 }
 
+.headImg{
+    margin-top: 30px;
+    width: 100vw;
+    height: 100%;
+}
 
 .btn.btn-primary {
     margin-left: 5px;

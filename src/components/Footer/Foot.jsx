@@ -20,8 +20,9 @@ function Foot() {
                         <p>vacia</p>
                     </Col>
                 </Row>
+                <Square/>
             </Container>
-            <Square/>
+          
         </>
     )
 }

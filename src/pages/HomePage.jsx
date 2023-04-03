@@ -5,6 +5,7 @@ import mons from './Pictures/mons web.png';
 import buzo from './Pictures/buzo.png';
 import hook from './Pictures/Hook web.png';
 import extreme from './Pictures/wheel.png';
+import mainImage from './Pictures/_DSC0114.jpg'
 import Imagenes_home from '../components/Carousel/Imagenes_home';
 
 
@@ -13,12 +14,14 @@ function HomePage() {
   return (
     <>
       <Container className='home'>
-        <Imagenes_home />
+        <Image src={mainImage} className='headImg'/>
         <h1>Bienvenido al mundo de Reaperseries co.</h1>
         <hr />
         <h4>
           Nuestros productos estan hechos a mano por nuestro equipo así que cada sudadera es casi irrepetible
         </h4>
+        <hr/>
+
         <h1>COLECCIONES</h1>
         <div className='buttonGroup'>
           <Button ><Image src={mons} /></Button>
