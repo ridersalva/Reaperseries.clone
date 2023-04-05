@@ -17,10 +17,8 @@ function Bar() {
                     <Nav className='buttonLink'>
                         <Link to="/" href='#home'>Inicio</Link>
                         <NavDropdown title="Productos" id="basic-nav-dropdown" href='#products'>
-                            <NavDropdown.Item href="#Camisetas">Camisetas</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                Sudaderas
-                            </NavDropdown.Item>
+                            <Nav.Link to="/scuba" href="#Scuba">Scuba</Nav.Link>
+                            <Link href="#action/3.2">Sudaderas</Link>
                         </NavDropdown>
                         <Nav.Link href='#about'>Filosofia</Nav.Link>
                         <Link to="/contact" href='#home'>Contact</Link>

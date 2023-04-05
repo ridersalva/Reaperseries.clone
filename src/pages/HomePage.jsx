@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Image, Container } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import './Pages.css';
 import mons from './Pictures/mons web.png';
 import buzo from './Pictures/buzo.png';
@@ -27,7 +28,7 @@ function HomePage() {
           <Button ><Image src={mons} /></Button>
           <Button><Image src={hook} /></Button>
           <Button><Image src={extreme} /></Button>
-          <Button><Image src={buzo} /></Button>
+          <Button><Link to='/scuba'><Image src={buzo} /></Link></Button>
         </div>
         <p>image group</p>
       </Container>
