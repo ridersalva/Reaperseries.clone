@@ -1,4 +1,5 @@
 .Bar {
+  color: white;
   background-color: rgb(15, 13, 13);
   opacity: 70%;
   display: flex;
@@ -6,17 +7,32 @@
   height: 130px;
   margin-top: 30px;
 }
-.navbar-expand .navbar-nav{
+
+a.nav-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-expand .navbar-nav {
   align-items: center;
+  color: white;
 }
-img{
-width: 300px;
-height: 90px;
+
+.navbar-expand .navbar-nav:hover {
+  align-items: center;
+  color:rgb(255, 255, 255);
 }
-.inside{
+
+img {
+  width: 300px;
+  height: 90px;
+}
+
+.inside {
   margin-left: 5%;
   margin-right: 5%;
 }
+
 a.nav-link {
   margin: 20px;
   font-size: 20px;
@@ -25,7 +41,7 @@ a.nav-link {
 .navbar-light .navbar-nav .nav-link {
   color: white;
   text-decoration: double;
- 
+
 }
 
 a {
@@ -36,4 +52,10 @@ a {
   font-size: 20px;
   margin: 20px;
   align-items: center;
+}
+
+a:hover{
+  text-decoration: none;
+  color:white;
+  
 }
