@@ -17,11 +17,11 @@ function Bar() {
                     <Nav className='buttonLink'>
                         <Link to="/" href='#home'>Inicio</Link>
                         <NavDropdown title="Productos" id="basic-nav-dropdown" href='#products'>
-                            <Nav.Link to="/scuba" href="#Scuba">Scuba</Nav.Link>
+                            <Nav.Link to="/scuba" href="Scuba">Scuba</Nav.Link>
                             <Link href="#action/3.2">Sudaderas</Link>
                         </NavDropdown>
                         <Nav.Link href='#about'>Filosofia</Nav.Link>
-                        <Link to="/contact" href='#home'>Contact</Link>
+                        <Link to="/contact" href='Contact'>Contact</Link>
                     </Nav>
                 </Container>
 
