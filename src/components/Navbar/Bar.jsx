@@ -8,12 +8,14 @@ import Square from "./Squeare";
 function Bar() {
     return (
         <>
-            <Square/>
+            <Square fixed='top'/>
             <Navbar className='Bar' fixed='top'>
-
+               
                 <Container className='inside'>
-                    <Image className='mainLoto' src={logo_white} alt='company_logo' />
-                    <Navbar.Brand href="#home" onclick="color">logo</Navbar.Brand>
+                    
+                    <Link to="/" href="home"><Image className='mainLoto' src={logo_white} alt='company_logo' /></Link>
+                    
+                    <Navbar.Brand href="#home" onclick="color"></Navbar.Brand>
                     <Nav className='buttonLink'>
                         <Link to="/" href='#home'>Inicio</Link>
                         <NavDropdown title="Productos" id="basic-nav-dropdown" href='#products'>

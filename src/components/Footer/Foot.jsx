@@ -1,10 +1,11 @@
-import React from 'react';
+import React  from 'react';
 import './Foot.css';
 import { Row, Col, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Square from '../Navbar/Squeare'
+import SquareF from './SquareF';
 
 function Foot() {
+
     return (
         <>
             <Container className='foot' fixed="botton">
@@ -20,9 +21,8 @@ function Foot() {
                         <p>vacia</p>
                     </Col>
                 </Row>
-                <Square/>
             </Container>
-          
+            <SquareF/>
         </>
     )
 }
