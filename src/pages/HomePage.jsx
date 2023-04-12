@@ -25,9 +25,9 @@ function HomePage() {
 
         <h1>COLECCIONES</h1>
         <div className='buttonGroup'>
-          <Button ><Image src={mons} /></Button>
-          <Button><Image src={hook} /></Button>
-          <Button><Image src={extreme} /></Button>
+          <Button ><Link to='/mons'><Image src={mons} /></Link></Button>
+          <Button><Link to='/hook'><Image src={hook} /></Link></Button>
+          <Button><Link to='/extreme'><Image src={extreme} /></Link></Button>
           <Button><Link to='/scuba'><Image src={buzo} /></Link></Button>
         </div>
         <p>image group</p>

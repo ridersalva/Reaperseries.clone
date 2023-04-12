@@ -3,6 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from "../pages/HomePage";
 import Contact from "../pages/Contact";
 import Scuba from "../pages/ScubaPage";
+import Mons from "../pages/MonsPage";
+import Extreme from "../pages/ExtremePage";
+import Hook from "../pages/HookPage";
 
 
 function AppRoutes() {
@@ -11,6 +14,9 @@ function AppRoutes() {
             <Route path="/" element={<HomePage/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/scuba" element={<Scuba/>}/>
+            <Route path="/extreme" element={<Extreme/>} />
+            <Route path="/hook" element={<Hook/>} />
+            <Route path="/mons" element={<Mons/>} />
         </Routes>
     )
 }
