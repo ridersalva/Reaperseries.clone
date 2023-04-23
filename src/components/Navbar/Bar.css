@@ -8,14 +8,10 @@
   margin-top: 30px;
 }
 
-a.nav-link:hover {
-  text-decoration: none;
-  color: white;
-}
 
 .navbar-expand .navbar-nav {
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .navbar-expand .navbar-nav:hover {
@@ -56,6 +52,31 @@ a {
 
 a:hover{
   text-decoration: none;
-  color:white;
-  
+  color:rgb(255, 255, 255);
 }
+ .dropdown-menu {
+background-color: red;
+ }
+ .dropdown-menu a { color: white;}
+ .dropdown {
+  color:white;
+ }
+
+.navbar-expand .navbar-nav .dropdown-menu{
+  color:rgb(188, 16, 16);
+ }
+ .Drop{ color: rgb(231, 5, 5);}
+ .Drop::selection{ background-color: brown;}
+ .navbar-light .navbar-nav .active>.nav-link,
+ .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show,
+ .navbar-light .navbar-nav .show>.nav-link{
+  color:white;
+padding: 20px;
+ }
+ .navbar-light .navbar-nav :hover>.nav-link,
+ .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show,
+ .navbar-light .navbar-nav .show>.nav-link {
+   color: white;
+ }

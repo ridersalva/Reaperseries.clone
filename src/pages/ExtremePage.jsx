@@ -1,9 +1,13 @@
 import React from 'react';
-import './Scuba.css';
+import './Hook.css';
+import {Image, Container } from 'react-bootstrap';
+import headerExtreme from './Pictures/cabcera extreme.png';
 
 function ExtremePage() {
   return (
-    <div>ExtremePage</div>
+    <>
+<Image src={headerExtreme} className='headerHook'/>
+    ExtremePage</>
   )
 }
 

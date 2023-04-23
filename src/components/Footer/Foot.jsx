@@ -31,7 +31,6 @@ function Foot() {
                     </Col>
                 </Row>
             </Container>
-            <SquareF />
         </>
     )
 }

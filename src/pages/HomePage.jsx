@@ -30,7 +30,7 @@ function HomePage() {
           <Button><Link to='/extreme'><Image src={extreme} /></Link></Button>
           <Button><Link to='/scuba'><Image src={buzo} /></Link></Button>
         </div>
-        <p>image group</p>
+       
       </Container>
     </>
   )

@@ -1,9 +1,16 @@
 import React from 'react';
-import './Scuba.css'
+import './Hook.css'
+import {Image, Container} from 'react-bootstrap';
+import CabezeraMons from './Pictures/cabecera montaña.png';
+
 
 function MonsPage() {
   return (
-    <div>MonsPage</div>
+    <>
+      <Image src={CabezeraMons} className='headerHook' />
+    MonsPage</>
+
+
   )
 }
 

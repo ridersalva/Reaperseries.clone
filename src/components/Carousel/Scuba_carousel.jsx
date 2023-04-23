@@ -1,8 +1,8 @@
 import React from 'react';
 import { Carousel, Image } from 'react-bootstrap';
-import Scuba1 from './Scuba pic/scuba1.jpg';
-import LogosScuba from './Scuba pic/logos scuba.jpg';
-import Scuba3 from './Scuba pic/scuba3.jpg';
+import Scuba1 from './imagenes/scuba1.jpg';
+import LogosScuba from './imagenes/logos scuba.jpg';
+import Scuba3 from './imagenes/scuba3.jpg';
 import './Scuba_carousel.css';
 
 function Scuba_carousel() {

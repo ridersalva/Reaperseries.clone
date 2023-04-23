@@ -59,6 +59,7 @@ p {
 .btn.btn-primary {
     margin-left: 5px;
     margin-right: 20px;
+    margin-bottom: 10%;
 }
 
 
@@ -67,5 +68,4 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    margin-bottom: 5%;
 }

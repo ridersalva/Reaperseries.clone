@@ -22,16 +22,14 @@ function Bar() {
                     
                     <Navbar.Brand href="#home" onclick="color"></Navbar.Brand>
                     <Nav className='buttonLink'>
-                        <Link to="/" href='#home' onClick={() => {
-                            clickColor === "transparent" ? setClickColor("red") : setClickColor("transparent");
-
-                        }}
-                            style={{ backgroundColor: clickColor }} >Home</Link>
-                        <NavDropdown title="Productos" id="basic-nav-dropdown" href='#products'>
-                            <Nav.Link to="/scuba" href="Scuba">Scuba</Nav.Link>
-                            <Link href="#action/3.2">Sudaderas</Link>
+                        <Link to="/" href='#home' >Home</Link>
+                        <NavDropdown className='Drop' title="Productos"  href='#products'>
+                            <Link to="/scuba" href="Scuba">Scuba</Link>
+                            <Link to="/hook" href="Hook">Hook</Link>
+                            <Link to="/extreme" href="Extreme">Extreme</Link>
+                            <Link to="/mons" href="Mons">Mons</Link>
                         </NavDropdown>
-                        <Nav.Link href='#about'>Filosofia</Nav.Link>
+                        <Link className='Drop2' href='#about'>Filosofia</Link>
                         <Link to="/contact" href='Contact'>Contact</Link>
                     </Nav>
                 </Container>
