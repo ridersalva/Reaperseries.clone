@@ -4,6 +4,16 @@
     width: 50%;
     height: 50%;
     margin-top: 20px;
-    background-color: antiquewhite;
     margin-bottom: 120px;
+}
+.carousel-control-prev{
+    left:-200px;
+    color: rgb(96, 93, 93);
+}
+.carousel-control-next{
+    right: -200px;
+    color:rgb(96, 93, 93);
+}
+.pageScuba{
+    background-color: rgb(96, 93, 93);
 }

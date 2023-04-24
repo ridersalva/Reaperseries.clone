@@ -3,7 +3,7 @@ import './Square.css';
 
 function Squeare() {
   return (
-    <div className='red'>
+    <div className='red' fixed='top'>
       
     </div>
   )

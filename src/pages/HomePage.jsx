@@ -14,8 +14,9 @@ import Imagenes_home from '../components/Carousel/Imagenes_home';
 function HomePage() {
   return (
     <>
+      <Image src={mainImage} className='headImg' />
       <Container className='home'>
-        <Image src={mainImage} className='headImg'/>
+        
         <h1>Bienvenido al mundo de Reaperseries co.</h1>
         <hr />
         <h4>

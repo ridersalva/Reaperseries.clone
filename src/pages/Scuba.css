@@ -1,8 +1,46 @@
-.headerScuba{
+.headerScuba {
     width: 100vw;
     height: 25%;
 }
-.pageScuba{
+
+.pageScuba {
     display: flex;
     justify-content: center;
+   
+}
+
+.col-4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width: 70%;
+    height: 90%;
+}
+.line{
+    margin-top: 30px;
+    width: 80%;
+    height: 0.1%;
+}
+.pageScuba img{
+    border-radius: 50px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    width: 50px;
+    height: 50px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon :hover{
+    width: 50px;
+    height: 50px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    width: 50px;
+    height: 50px;
+}
+.carousel-indicators {
+    margin-top: 20px;
 }

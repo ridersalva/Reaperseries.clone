@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Navbar, Container, NavLink, NavDropdown, Nav, Image } from 'react-bootstrap';
 import './Bar.css';
 import { Link } from 'react-router-dom';
@@ -7,23 +7,23 @@ import Square from "./Squeare";
 
 
 function Bar() {
-    const[clickColor, setClickColor]= useState("transparent");
+    const [clickColor, setClickColor] = useState("transparent");
 
-   
+
     return (
         <>
-            <Square fixed='top'/>
+           
             <Navbar className='Bar' fixed='top'>
-               
+         
                 <Container className='inside'>
-                    
+
                     <Link to="/" href="home">
                         <Image className='mainLoto' src={logo_white} alt='company_logo' /></Link>
-                    
+
                     <Navbar.Brand href="#home" onclick="color"></Navbar.Brand>
                     <Nav className='buttonLink'>
                         <Link to="/" href='#home' >Home</Link>
-                        <NavDropdown className='Drop' title="Productos"  href='#products'>
+                        <NavDropdown className='Drop' title="Productos" href='#products'>
                             <Link to="/scuba" href="Scuba">Scuba</Link>
                             <Link to="/hook" href="Hook">Hook</Link>
                             <Link to="/extreme" href="Extreme">Extreme</Link>

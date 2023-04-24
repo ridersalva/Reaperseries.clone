@@ -16,6 +16,7 @@ function ScubaPage() {
             <Container className='pageScuba'>
                 <Scuba_carousel />
             </Container>
+            <hr color='black' className='line'/>
             <Container>
                 <Row className='cScubaModels'>
                     <Col flex xs={4}>
