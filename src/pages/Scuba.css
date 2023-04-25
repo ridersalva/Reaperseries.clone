@@ -44,3 +44,10 @@
 .carousel-indicators {
     margin-top: 20px;
 }
+.box1{
+     border-radius: 10px;
+        border-width: thick;
+        border-color: black;
+        width: max-content;
+        height: max-content;
+}

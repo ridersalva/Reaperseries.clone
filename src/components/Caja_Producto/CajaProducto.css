@@ -1,0 +1,17 @@
+.cajaC1{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+}
+.cajaC1 img{
+    width: 350px;
+    height: 380px;
+
+}
+.checks{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
