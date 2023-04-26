@@ -1,13 +1,13 @@
 import React from 'react'
 import './CajaProducto.css';
-import { Container, Image, Row, Col, Form,Button } from 'react-bootstrap';
-import cAzul from './camisetas/camiseta buzo azul.png';
+import { Container, Image, Col, Form } from 'react-bootstrap';
+import sBlanco from './sudadera/sudadera capucha buzo blanco.png';
 
-function CajaProducto() {
+function CajaProducto4() {
     return (
         <>
             <Container className='cajaC1'>
-                <Image src={cAzul} />
+                <Image src={sBlanco} />
                     <Form className='checks'>
                         {['checkbox'].map((type) => (
                             <div key={`inline-${type}`} className="mb-3">
@@ -51,4 +51,4 @@ function CajaProducto() {
     )
 }
 
-export default CajaProducto
+export default CajaProducto4

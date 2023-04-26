@@ -44,10 +44,40 @@
 .carousel-indicators {
     margin-top: 20px;
 }
-.box1{
-     border-radius: 10px;
-        border-width: thick;
-        border-color: black;
-        width: max-content;
-        height: max-content;
+
+.cBox{
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+.sScubaModels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+}
+.cScubaModels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn.btn-primary{
+    margin-left: 180px;
+}
+.box{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    border-width: thick;margin-top: 50px;
+}
+.sBox{
+
+    display: flex;
+    justify-content: center;
+margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }

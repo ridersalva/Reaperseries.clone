@@ -3,15 +3,15 @@
     height: fit-content;
     display: flex;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 30px;
+    margin-bottom: 40px;
 }
 .cajaC1 img{
-    width: 350px;
+    width: 450px;
     height: 380px;
-
 }
 .checks{
     display: flex;
-    justify-content: center;
-    background-color: brown;
+    flex-direction: column;
+    margin-left: 20px;
 }
