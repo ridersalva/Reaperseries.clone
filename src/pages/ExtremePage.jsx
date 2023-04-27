@@ -1,13 +1,33 @@
 import React from 'react';
 import './Hook.css';
-import {Image, Container } from 'react-bootstrap';
+import {Image, Container,Row,Col,Button } from 'react-bootstrap';
 import headerExtreme from './Pictures/cabcera extreme.png';
+import CajaProducto11 from '../components/Caja_Producto/CajaProducto11';
+import CajaProducto12 from '../components/Caja_Producto/CajaProducto12';
+import CajaProducto13 from '../components/Caja_Producto/CajaProducto13';
 
 function ExtremePage() {
   return (
     <>
 <Image src={headerExtreme} className='headerHook'/>
-    ExtremePage</>
+      <Container className='box'>
+        <Row >
+          <Col flex xs={4} className='cScubaModels'>
+            <CajaProducto11 />
+            <Button >Lo quiero</Button>
+          </Col>
+          <Col flex xs={4} className='cScubaModels'>
+            <CajaProducto12 />
+            <Button >Lo quiero</Button>
+          </Col>
+          <Col flex xs={4} className='cScubaModels'>
+            <CajaProducto13 />
+            <Button >Lo quiero</Button>
+          </Col>
+        </Row>
+
+      </Container>
+    </>
   )
 }
 
