@@ -3,7 +3,7 @@ import { Carousel, Image } from 'react-bootstrap';
 import Hook2 from './imagenes/hook2.jpg';
 import Hook3 from './imagenes/hook3.jpg';
 import Hook4 from './imagenes/hook4.jpg';
-import './Scuba_carousel.css';
+import './Hook_carousel.css';
 
 function Hook_carousel() {
     return (

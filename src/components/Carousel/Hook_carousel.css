@@ -1,0 +1,29 @@
+.caroImage {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    height: 55%;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.carousel-control-prev {
+    left: -200px;
+    color: rgb(96, 93, 93);
+}
+
+.carousel-control-next {
+    right: -200px;
+    color: rgb(96, 93, 93);
+}
+
+.pageHook {
+    background-color: rgb(96, 93, 93);
+}
+
+.carousel-item .active{
+display: flex;
+justify-content: center;
+border-radius: 20px;
+position: none;
+}
