@@ -1,6 +1,6 @@
 .headerScuba {
     width: 100vw;
-    height: 25%;
+    height: 15%;
 }
 
 .pageScuba {
@@ -14,10 +14,7 @@
     justify-content: center;
     margin-bottom: 50px;
 }
-.col-4 img{
-    width: 70%;
-    height: 90%;
-}
+
 .line{
     margin-top: 30px;
     width: 80%;

@@ -1,5 +1,5 @@
 import React from 'react'
-import './CajaProducto.css';
+import './CajaProductoT2.css';
 import { Container, Image, Row, Col, Form,Button } from 'react-bootstrap';
 import cAzul from './camisetas/camiseta buzo azul.png';
 
