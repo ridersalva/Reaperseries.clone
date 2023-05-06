@@ -1,10 +1,11 @@
 .caroImage {
     display: flex;
     justify-content: center;
-    width: 55%;
-    height: 55%;
+    width: 75%;
+    height: 65%;
     margin-top: 20px;
     margin-bottom: 120px;
+    border-radius: 20px;
 }
 
 .carousel-control-prev {
@@ -18,12 +19,19 @@
 }
 
 .pageHook {
+    display: flex;
+    justify-content: center;
     background-color: rgb(96, 93, 93);
 }
 
-.carousel-item .active{
-display: flex;
-justify-content: center;
-border-radius: 20px;
-position: none;
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel img {
+    border-radius: 30px;
 }

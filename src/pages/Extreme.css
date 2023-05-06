@@ -1,7 +1,7 @@
-.headerHook {
-    
+.headerExtreme {
+    margin-top: 30px;
     width: 100vw;
-    height: 12%;
+    height: 300px;
 }
 
 .pageHook {
@@ -10,12 +10,22 @@
     justify-content: center;
     background-color: grey;
 }
+
 .col-4 {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+
 }
 
+.col-4 img {
+    width: 90%;
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
 
 .line {
     margin-top: 30px;
@@ -73,26 +83,19 @@
 }
 
 .box {
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
     display: flex;
     justify-content: center;
     border-color: black;
-    border-width: thick;
     margin-top: 50px;
     margin-bottom: 300px;
 }
-.row{
-display: flex;
-flex-wrap:nowrap
-
-}
 
 .sBox {
-
     display: flex;
     justify-content: center;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
     margin-top: 20px;
 }

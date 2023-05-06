@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hook.css';
+import './Extreme.css';
 import {Image, Container,Row,Col,Button } from 'react-bootstrap';
 import headerExtreme from './Pictures/cabcera extreme.png';
 import CajaProducto11 from '../components/Caja_Producto/CajaProducto11';
@@ -9,7 +9,7 @@ import CajaProducto13 from '../components/Caja_Producto/CajaProducto13';
 function ExtremePage() {
   return (
     <>
-<Image src={headerExtreme} className='headerHook'/>
+<Image src={headerExtreme} className='headerExtreme'/>
       <Container className='box'>
         <Row >
           <Col flex xs={4} className='cScubaModels'>
