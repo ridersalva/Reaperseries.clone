@@ -1,5 +1,4 @@
 .headerHook {
-    
     width: 100vw;
     height: 12%;
 }
@@ -14,8 +13,8 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    width: 400px;
 }
-
 
 .line {
     margin-top: 30px;

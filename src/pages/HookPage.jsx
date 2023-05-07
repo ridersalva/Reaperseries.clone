@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Image, Carousel,Row,Col,Button } from 'react-bootstrap';
+import { Container, Image,Row,Col,Button } from 'react-bootstrap';
 import './Hook.css';
 import CabezeraHook from './Pictures/cabecera pulpo.png';
 import Hook_carousel from '../components/Carousel/Hook_carousel';
