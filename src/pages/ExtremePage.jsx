@@ -10,22 +10,22 @@ function ExtremePage() {
   return (
     <>
 <Image src={headerExtreme} className='headerExtreme'/>
-      <Container className='box'>
+      <hr color='black' className='line' />
+      <Container className='eBox'>
         <Row >
-          <Col flex xs={4} className='cScubaModels'>
+          <Col flex xs={4} className='cExtreme'>
             <CajaProducto11 />
             <Button >Lo quiero</Button>
           </Col>
-          <Col flex xs={4} className='cScubaModels'>
+          <Col flex xs={4} className='cExtreme'>
             <CajaProducto12 />
             <Button >Lo quiero</Button>
           </Col>
-          <Col flex xs={4} className='cScubaModels'>
+          <Col flex xs={4} className='cExtreme'>
             <CajaProducto13 />
             <Button >Lo quiero</Button>
           </Col>
         </Row>
-
       </Container>
     </>
   )

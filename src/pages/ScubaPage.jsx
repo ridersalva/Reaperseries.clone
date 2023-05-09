@@ -1,6 +1,6 @@
 import React from 'react';
 import './Scuba.css';
-import { Container, Image, Carousel, Row, Col,Button } from 'react-bootstrap';
+import { Container, Image, Carousel, Row, Col, Button } from 'react-bootstrap';
 import ScubaH from './Pictures/cabcera buzo.png';
 import Scuba_carousel from '../components/Carousel/Scuba_carousel';
 import CajaProducto from '../components/Caja_Producto/CajaProducto';
@@ -16,11 +16,11 @@ function ScubaPage() {
             <Container className='pageScuba'>
                 <Scuba_carousel />
             </Container>
-            <hr color='black' className='line'/>
+            <hr color='black' className='line' />
             <Container className='box'>
                 <Row >
                     <Col flex xs={4} className='cScubaModels'>
-                        <CajaProducto/>
+                        <CajaProducto />
                         <Button >Lo quiero</Button>
                     </Col>
                     <Col flex xs={4} className='cScubaModels'>
@@ -32,7 +32,7 @@ function ScubaPage() {
                         <Button >Lo quiero</Button>
                     </Col>
                 </Row>
-                
+
             </Container>
             <Container className='sBox'>
                 <Row >
@@ -43,9 +43,9 @@ function ScubaPage() {
                     <Col flex xs={6} className='sScubaModels'>
                         <CajaProducto4 />
                         <Button >Lo quiero</Button>
-                    </Col>                  
+                    </Col>
                 </Row>
-                
+
             </Container>
         </>
     )

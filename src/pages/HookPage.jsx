@@ -14,6 +14,7 @@ function HookPage() {
       <Container className='pageHook'>
         <Hook_carousel />
       </Container>
+      <hr color='black' className='line' />
       <Container className='box'>
         <Row >
           <Col flex xs={4} className='cScubaModels'>
