@@ -3,18 +3,23 @@
     width: 100vw;
     height: 300px;
 }
+.row{
+    width: 2000px;
+    margin-right: 150px;
+}
 .col-4 {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 68px;
 
 }
+
 
 .line {
     margin-top: 30px;
     width: 80%;
-    height: 0.1%;
+    height: 0.3%;
 }
 
 
@@ -33,6 +38,13 @@
 
 .btn.btn-primary {
     margin-left: 180px;
+    background-color: brown;
+    border-color: brown;
+    color: white;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .eBox {
@@ -40,7 +52,7 @@
     margin-left: 5px;
     display: flex;
     justify-content: center;
-    border-color: black;
     margin-top: 50px;
     margin-bottom: 300px;
 }
+
