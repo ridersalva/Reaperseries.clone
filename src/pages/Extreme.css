@@ -45,6 +45,7 @@
     height: 80px;
     display: flex;
     justify-content: center;
+    box-shadow: 100px;
 }
 
 .eBox {

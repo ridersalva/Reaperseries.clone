@@ -17,15 +17,15 @@ function HookPage() {
       <hr color='black' className='line' />
       <Container className='box'>
         <Row >
-          <Col flex xs={4} className='cScubaModels'>
+          <Col flex xs={4} className='cHookModels'>
             <CajaProducto8 />
             <Button >Lo quiero</Button>
           </Col>
-          <Col flex xs={4} className='cScubaModels'>
+          <Col flex xs={4} className='cHookModels'>
             <CajaProducto9 />
             <Button >Lo quiero</Button>
           </Col>
-          <Col flex xs={4} className='cScubaModels'>
+          <Col flex xs={4} className='cHookModels'>
             <CajaProducto10 />
             <Button >Lo quiero</Button>
           </Col>
