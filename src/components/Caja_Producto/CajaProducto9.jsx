@@ -1,12 +1,12 @@
 import React from 'react'
-import './CajaProducto.css';
+import './CajaProductoHook.css';
 import { Container, Image, Col, Form } from 'react-bootstrap';
 import cPulpoBlanco from './camisetas/camiseta pulpo blanco.png';
 
 function CajaProducto9() {
     return (
         <>
-            <Container className='cajaC1'>
+            <Container className='cajaC1H'>
                 <Image src={cPulpoBlanco} />
                     <Form className='checks'>
                         {['checkbox'].map((type) => (

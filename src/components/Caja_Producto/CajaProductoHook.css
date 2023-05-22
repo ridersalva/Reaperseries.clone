@@ -1,0 +1,22 @@
+.cajaC1H {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-bottom: -57px;
+}
+
+.cajaC1H img {
+    width: 470px;
+    height: 730px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-bottom: 90px;
+}
+
+.checks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
