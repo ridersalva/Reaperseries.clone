@@ -1,0 +1,96 @@
+.headerHook {
+    width: 100vw;
+    height: 12%;
+}
+
+.pageHook {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+.col-4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 400px;
+}
+
+.line {
+    margin-top: 30px;
+    width: 80%;
+    height: 0.1%;
+}
+
+.pageHook img {
+    border-radius: 50px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon :hover {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-indicators {
+    margin-top: 20px;
+}
+
+.cBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sHookModels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.cHookModels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn.btn-primary {
+    margin-left: 180px;
+}
+
+.box {
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    border-width: thick;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+.row{
+display: flex;
+flex-wrap:nowrap
+
+}
+
+.sBox {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
