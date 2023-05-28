@@ -34,6 +34,7 @@ function ScubaPage() {
                 </Row>
 
             </Container>
+
             <Container className='sBox'>
                 <Row >
                     <Col flex xs={6} className='sScubaModels'>

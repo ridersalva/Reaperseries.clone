@@ -26,10 +26,10 @@ function HomePage() {
 
         <h1>COLECCIONES</h1>
         <div className='buttonGroup'>
-          <Button ><Link to='/mons'><Image src={mons} /></Link></Button>
-          <Button><Link to='/hook'><Image src={hook} /></Link></Button>
-          <Button><Link to='/extreme'><Image src={extreme} /></Link></Button>
-          <Button><Link to='/scuba'><Image src={buzo} /></Link></Button>
+          <Button className='homebutt' ><Link to='/mons'><Image src={mons} /></Link></Button>
+          <Button className='homebutt'><Link to='/hook'><Image src={hook} /></Link></Button>
+          <Button className='homebutt'><Link to='/extreme'><Image src={extreme} /></Link></Button>
+          <Button className='homebutt'><Link to='/scuba'><Image src={buzo} /></Link></Button>
         </div>
        
       </Container>
