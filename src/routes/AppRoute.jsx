@@ -6,6 +6,7 @@ import Scuba from "../pages/ScubaPage";
 import Mons from "../pages/MonsPage";
 import Extreme from "../pages/ExtremePage";
 import Hook from "../pages/HookPage";
+import Filosofia from "../pages/FilosofiaPage";
 
 
 function AppRoutes() {
@@ -17,6 +18,7 @@ function AppRoutes() {
             <Route path="/extreme" element={<Extreme/>} />
             <Route path="/hook" element={<Hook/>} />
             <Route path="/mons" element={<Mons/>} />
+            <Route path="/filosofia" element={<Filosofia/>}/>
         </Routes>
     )
 }

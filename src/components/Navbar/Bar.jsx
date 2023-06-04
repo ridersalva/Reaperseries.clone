@@ -3,7 +3,7 @@ import { Navbar, Container, NavLink, NavDropdown, Nav, Image } from 'react-boots
 import './Bar.css';
 import { Link } from 'react-router-dom';
 import logo_white from "./logo menu blanco.png";
-import Square from "./Squeare";
+
 
 
 function Bar() {
@@ -29,7 +29,7 @@ function Bar() {
                             <Link to="/extreme" href="Extreme">Extreme</Link>
                             <Link to="/mons" href="Mons">Mons</Link>
                         </NavDropdown>
-                        <Link className='Drop2' href='#about'>Filosofia</Link>
+                        <Link to="/filosofia" href='Filosofia'>Filosofia</Link>
                         <Link to="/contact" href='Contact'>Contact</Link>
                     </Nav>
                 </Container>
