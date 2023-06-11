@@ -15,15 +15,15 @@ function ExtremePage() {
         <Row >
           <Col flex xs={4} className='cExtreme'>
             <CajaProducto11 />
-            <Button >Lo quiero</Button>
+            <Button className='Loq'>Lo quiero</Button>
           </Col>
           <Col flex xs={4} className='cExtreme'>
             <CajaProducto12 />
-            <Button >Lo quiero</Button>
+            <Button className='Loq' >Lo quiero</Button>
           </Col>
           <Col flex xs={4} className='cExtreme'>
             <CajaProducto13 />
-            <Button >Lo quiero</Button>
+            <Button className='Loq' >Lo quiero</Button>
           </Col>
         </Row>
       </Container>
